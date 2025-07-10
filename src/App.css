@@ -1,0 +1,40 @@
+.ant-slider-horizontal {
+  height: 20px;
+}
+
+.ant-slider .ant-slider-handle::before,
+.ant-slider .ant-slider-handle::after {
+  width: 28px;
+  height: 28px;
+}
+
+.ant-slider .ant-slider-handle::after {
+  top: -10px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.ant-tooltip-open {
+  width: 28px;
+  height: 28px;
+}
+
+.ql-container {
+  background-color: white;
+  height: 15vh !important;
+}
+
+.guideline .ql-container {
+  height: 30vh !important;
+}
+
+/** Hide scrollbar but keep functionality */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

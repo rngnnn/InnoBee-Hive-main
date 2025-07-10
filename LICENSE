@@ -1,0 +1,87 @@
+PROPRIETARY SOFTWARE LICENSE
+Effective Date: December 1st, 2023
+WHEREAS, Mohammad Reza Razghandi, the Co-founder and CEO at InnoBee: Innovation Management Platform (www.innobee.ir / www.innobee.buzz) (hereinafter referred to as "Licensor"), is the sole and exclusive owner of all intellectual property rights, including but not limited to copyrights, patents, trademarks, trade secrets, and other proprietary1 rights, in and to the digital product known as "InnoBee: Innovation Management Platform", InnoBee Hive, (hereinafter referred to as the "Software"), including its source code, object code, design, structure, algorithms, and associated documentation;
+WHEREAS, the Software is proprietary, confidential, and developed for internal purposes and private use of the Licensor;
+WHEREAS, individuals, including employees, contractors, and authorized personnel of the Licensor (hereinafter collectively referred to as "Recipient(s)"), may be granted limited access to the Software's repository and associated materials for the sole purpose of development, maintenance, and operation as authorized by the Licensor;
+NOW, THEREFORE, in consideration of the access granted to the Software, the Recipient agrees to the following terms and conditions:
+________________________________________
+1. DEFINITIONS
+•	1.1. "Licensor" refers to Mohammad Reza Razghandi, the Co-founder and CEO at InnoBee: Innovation Management Platform (www.innobee.ir / www.innobee.buzz), the owner of the Software.
+•	1.2. "Recipient(s)" refers to any individual (including, but not limited to, employees, contractors, consultants, and authorized personnel) who is granted access to the Software, its source code, object code, documentation, or any derivative works thereof, for the purpose of development, maintenance, testing, or operation on behalf of the Licensor.
+•	1.3. "Software" refers to the digital product known as "InnoBee: Innovation Management Platform," including all versions, modules, components, source code, object code, APIs, libraries, documentation, data, algorithms, user interfaces, designs, and any associated materials provided by the Licensor.
+•	1.4. "Intellectual Property Rights" refers to all current and future worldwide rights associated with the Software, including copyrights, trademark rights, patent rights, trade secret rights, database rights, design rights, and any other proprietary rights in any form or medium, whether registered or unregistered.
+•	1.5. "Confidential Information" refers to any and all non-public information disclosed by the Licensor to the Recipient, whether orally, visually, in writing, electronically, or otherwise, which relates to the Software, its development, design, operation, business plans, financial information, customers, or any other proprietary information of the Licensor. This includes, but is not limited to, the Software's source code, object code, algorithms, architecture, development methodologies, and internal documentation.
+2. OWNERSHIP AND INTELLECTUAL PROPERTY
+•	2.1. Sole Ownership: The Licensor is and shall remain the sole and exclusive owner of all Intellectual Property Rights in and to the Software. This License does not transfer any ownership rights in the Software to the Recipient.
+•	2.2. No Implied Licenses: Nothing in this License shall be construed as granting any express or implied licenses or rights to the Recipient, except for the strictly limited access explicitly defined herein. All rights not expressly granted are reserved by the Licensor.
+•	2.3. Contributions: Any suggestions, feedback, improvements, modifications, or contributions made by the Recipient to the Software, whether during the course of employment or contract, shall automatically become the sole and exclusive property of the Licensor, without any compensation or acknowledgment due to the Recipient, unless explicitly agreed otherwise in a separate written agreement. The Recipient hereby assigns all rights, title, and interest in such contributions to the Licensor.
+•	2.4. Markings: The Recipient shall not remove, alter, or obscure any proprietary notices, labels, or marks, including copyright and trademark notices, from the Software or its documentation.
+3. SCOPE OF ACCESS AND USE
+•	3.1. Limited Access: The Licensor grants the Recipient a limited, non-exclusive, non-transferable, revocable privilege to access and use the Software's repository and associated materials solely for the internal development, maintenance, testing, and operational support of the Software for the direct benefit of the Licensor and strictly in accordance with the Recipient's assigned duties or contractual obligations.
+•	3.2. Internal Use Only: The Software is provided for the Licensor's internal purposes only. It is not intended for public distribution, sublicensing, or commercial exploitation by the Recipient.
+•	3.3. No Independent Rights: The Recipient acknowledges and agrees that the access granted under this License does not confer any independent right to use, modify, or distribute the Software beyond the scope explicitly permitted for the Licensor's internal operations.
+4. CONFIDENTIALITY OBLIGATIONS
+•	4.1. Protection of Confidential Information: The Recipient acknowledges that the Software, its source code, design, methodologies, and all other Confidential Information constitute valuable trade secrets and proprietary information of the Licensor. The Recipient agrees to hold all Confidential Information in strict confidence and to use the same degree of care to protect it as they would use to protect their own highly sensitive confidential information, but in no event less than a reasonable degree of care.
+•	4.2. Non-Disclosure: The Recipient shall not disclose, reproduce, or transmit any Confidential Information to any third party, whether directly or indirectly, without the prior express written consent of the Licensor.
+•	4.3. Limited Access: The Recipient shall limit access to the Confidential Information to those individuals within the Licensor's organization who have a legitimate "need to know" such information for the purposes authorized under this License and who are bound by confidentiality obligations at least as stringent as those contained herein.
+•	4.4. Return/Destruction: Upon termination of the Recipient's engagement with the Licensor or upon the Licensor's request, the Recipient shall immediately cease all use of the Software and Confidential Information, and shall promptly return or destroy all copies of the Software, its source code, documentation, and all other Confidential Information in their possession, custody, or control, certifying such destruction in writing if requested by the Licensor.
+________________________________________
+5. PROHIBITED ACTIONS
+The Recipient shall not, directly or indirectly, and shall ensure that no third party under their control shall:
+•	5.1. Copy or Reproduce: Copy, reproduce, duplicate, or otherwise exploit the Software, in whole or in part, except as strictly necessary for authorized internal development, backup, or archival purposes as approved by the Licensor.
+•	5.2. Distribute or Transfer: Sell, lease, license, sublicense, publish, display, distribute, rent, loan, assign, or otherwise transfer the Software or any rights associated with it to any third party.
+•	5.3. Modify or Adapt: Modify, adapt, translate, create derivative works of, or make any alterations to the Software, except as explicitly authorized for internal development purposes on behalf of the Licensor.
+•	5.4. Reverse Engineer: Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code or underlying structure, ideas, or algorithms of the Software, or permit any third party to do so.
+•	5.5. Public Display/Performance: Publicly display, perform, or otherwise make the Software available to the public.
+•	5.6. Remove Notices: Remove, alter, or obscure any copyright, trademark, patent, or other proprietary notices from the Software or its documentation.
+•	5.7. Circumvent Security: Attempt to circumvent or disable any security features or technological measures in the Software.
+•	5.8. Unauthorized Use: Use the Software for any purpose not expressly permitted by this License or in a manner that infringes upon the Intellectual Property Rights of the Licensor or any third party.
+•	5.9. Competing Products: Use the Confidential Information to develop or assist in the development of any product or service that competes with the Software or any other products/services of the Licensor.
+________________________________________
+6. OPEN SOURCE SOFTWARE COMPONENTS
+•	6.1. Incorporation of OSS: The Software may include components or libraries subject to "open source" licenses ("OSS Components"). The Licensor will endeavor to maintain a list of such OSS Components and their respective licenses within the Software's documentation or repository.
+•	6.2. Compliance with OSS Licenses: The Recipient acknowledges that the use of such OSS Components is subject to the terms and conditions of their respective open-source licenses, which may grant additional rights or impose obligations different from those contained in this Proprietary Software License. To the extent required by the licenses covering OSS Components, the terms of such licenses will apply in lieu of the terms of this License with respect to such OSS Components.
+•	6.3. Proprietary Nature Maintained: Notwithstanding Section 6.2, the Software as a whole, excluding specifically identified OSS Components, remains strictly proprietary to the Licensor, and the Recipient shall not use the presence of OSS Components to claim any rights over the Licensor's proprietary code or to bypass the restrictions of this License.
+________________________________________
+7. NO WARRANTIES
+•	7.1. "As Is" Basis: THE SOFTWARE IS PROVIDED "AS IS," "WITH ALL FAULTS," AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+•	7.2. Disclaimer: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY,3 FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY,4 RELIABILITY, OR FREEDOM FROM VIRUSES OR MALICIOUS CODE.
+•	7.3. No Guarantee of Uninterrupted Operation: The Licensor does not warrant that the Software will meet the Recipient's requirements, or that its operation will be uninterrupted, error-free, or secure. The Licensor is not responsible for any problems or technical malfunction of any network, computer system, server, or provider, computer equipment, software, or failure of email on account of technical problems or traffic congestion on the Internet or at any5 website or combination thereof, including injury or damage to Recipient's or any other person's computer related to or resulting from accessing or using the Software.
+________________________________________
+8. LIMITATION OF LIABILITY
+•	8.1. Exclusion of Damages: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,6 PUNITIVE, OR EXEMPLARY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF7 OR IN CONNECTION WITH THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.8
+•	8.2. Cap on Liability: IN NO EVENT SHALL THE LICENSOR'S TOTAL CUMULATIVE LIABILITY FOR ANY AND ALL CLAIMS ARISING OUT OF OR RELATING TO THIS LICENSE OR THE SOFTWARE EXCEED ONE HUNDRED EUROS (€100.00).
+•	8.3. Basis of Bargain: The limitations of liability set forth in this Section 8 are fundamental elements of the basis of the bargain between the Licensor and the Recipient, and the Licensor would not provide the Software without such limitations.
+________________________________________
+9. INDEMNIFICATION
+The Recipient agrees to indemnify, defend, and hold harmless the Licensor, its officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, expenses, and fees (including reasonable9 attorneys' fees) arising out of or in connection with10 the Recipient's breach of any term of this License, misuse of the Software, or violation of any applicable law or regulation.
+________________________________________
+10. AUDIT RIGHTS
+•	10.1. Compliance Audit: The Recipient agrees that the Licensor, or its designated representatives, shall have the right, upon reasonable prior written notice, to audit the Recipient's compliance with the terms of this License. Such audits may include, without limitation, reviewing Recipient's internal records and procedures related to access and use of the Software.
+•	10.2. Cooperation: The Recipient agrees to cooperate fully with any such audit and to provide all reasonable assistance and access to information as may be required by the Licensor.
+•	10.3. Costs: If an audit reveals that the Recipient has materially breached any term of this License, the Recipient shall bear the reasonable costs of such audit.
+________________________________________
+11. TERMINATION
+•	11.1. By Licensor: This License, and the Recipient's access to the Software, will terminate automatically and immediately without notice if the Recipient fails to comply with any term or condition of this License. The Licensor reserves the right to terminate the Recipient's access to the Software at any time, with or without cause, at its sole discretion.
+•	11.2. Effect of Termination: Upon termination of this License for any reason, the Recipient's right to access and use the Software shall immediately cease. The Recipient shall promptly return or destroy all copies of the Software, its source code, and all other Confidential Information as per Section 4.4.
+•	11.3. Survival: Sections 1, 2, 4, 5, 6, 7, 8, 9, 10, 11.2, 11.3, and 12-19 shall survive any termination of this License.
+________________________________________
+12. GOVERNING LAW AND JURISDICTION
+This License shall be governed by and construed in accordance with the laws of the Netherlands, without regard to its conflict of law principles. Any disputes arising out of or in connection with this License shall be subject to the exclusive jurisdiction of the competent courts in the Netherlands.
+________________________________________
+13. ENTIRE AGREEMENT
+This License constitutes the entire agreement between the Licensor and the Recipient concerning the subject matter hereof and supersedes all prior and contemporaneous agreements, proposals, or representations, written or oral, regarding such subject13 matter.
+________________________________________
+14. SEVERABILITY
+If any provision of this License is found by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the remaining provisions shall remain in full force and effect.
+________________________________________
+15. WAIVER
+No waiver of any term or condition of this License shall be deemed a further or continuing waiver of such term or condition or any other term or condition. The failure of the Licensor to assert any right or provision under this License shall not constitute a waiver of such right or provision.
+________________________________________
+16. ACKNOWLEDGMENT
+By accessing, downloading, or otherwise using the Software, the Recipient acknowledges that they have read, understood, and agree to be bound by the terms and conditions of this License.
+________________________________________
+Mohammad Reza Razghandi
+Co-founder and CEO
+InnoBee: Innovation Management Platform (www.innobee.ir / www.innobee.buzz)
+December 1st, 2023

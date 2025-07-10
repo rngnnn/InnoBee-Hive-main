@@ -1,0 +1,28 @@
+.ant-select-selector {
+  border-radius: 0px !important;
+  height: 44px !important;
+}
+
+.ant-select-selector:hover {
+  border: none !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border: none !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border: 1px solid #ffb000 !important;
+  box-shadow: none !important;
+}
+
+#file-upload-button {
+  width: 200px !important;
+}
+
+.challlenge-step-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  margin-top: 5px;
+}

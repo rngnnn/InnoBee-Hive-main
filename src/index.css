@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+/* Fix for button icons alignment */
+.ant-btn {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.ant-dropdown-menu-item {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.ant-dropdown-menu-title-content {
+	display: flex !important;
+	align-items: center !important;
+	gap: 0.5rem;
+}
+
+@layer utilities {
+	.flex-center {
+		@apply flex items-center;
+	}
+
+	.flex-center-between {
+		@apply flex items-center justify-between;
+	}
+	.padding-x {
+		@apply lg:px-14 md:px-10 sm:px-8 px-3;
+	}
+	.btnn {
+		@apply border-1 border-gray-900  px-4 py-1 rounded-full bg-white text-[#2d2d2d];
+	}
+	.scrollbar::-webkit-scrollbar {
+		width: 13px;
+		height: 13px;
+	}
+
+	.scrollbar::-webkit-scrollbar-track {
+		border-radius: 100vh;
+		background: #f7f4ed;
+	}
+
+	.scrollbar::-webkit-scrollbar-thumb {
+		background: #bfbfbf;
+		border-radius: 100vh;
+		border: 3px solid #f6f7ed;
+	}
+	.scrollbar::-webkit-scrollbar-thumb:hover {
+		background: #7f7f7f;
+	}
+
+	.hide-scrollbar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.body-hide-scrollbar {
+		overflow: hidden;
+	}
+}
+
+/** shadcn */
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 222.2 47.4% 11.2%;
+		--muted: 210 40% 96.1%;
+		--muted-foreground: 215.4 16.3% 46.9%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 222.2 47.4% 11.2%;
+		--border: 214.3 31.8% 91.4%;
+		--input: 214.3 31.8% 91.4%;
+		--card: 0 0% 100%;
+		--card-foreground: 222.2 47.4% 11.2%;
+		--primary: 222.2 47.4% 11.2%;
+		--primary-foreground: 210 40% 98%;
+		--secondary: 210 40% 96.1%;
+		--secondary-foreground: 222.2 47.4% 11.2%;
+		--accent: 210 40% 96.1%;
+		--accent-foreground: 222.2 47.4% 11.2%;
+		--destructive: 0 100% 50%;
+		--destructive-foreground: 210 40% 98%;
+		--ring: 215 20.2% 65.1%;
+		--radius: 0.5rem;
+	}
+
+	.dark {
+		--background: 224 71% 4%;
+		--foreground: 213 31% 91%;
+		--muted: 223 47% 11%;
+		--muted-foreground: 215.4 16.3% 56.9%;
+		--accent: 216 34% 17%;
+		--accent-foreground: 210 40% 98%;
+		--popover: 224 71% 4%;
+		--popover-foreground: 215 20.2% 65.1%;
+		--border: 216 34% 17%;
+		--input: 216 34% 17%;
+		--card: 224 71% 4%;
+		--card-foreground: 213 31% 91%;
+		--primary: 210 40% 98%;
+		--primary-foreground: 222.2 47.4% 1.2%;
+		--secondary: 222.2 47.4% 11.2%;
+		--secondary-foreground: 210 40% 98%;
+		--destructive: 0 63% 31%;
+		--destructive-foreground: 210 40% 98%;
+		--ring: 216 34% 17%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply font-sans antialiased bg-background text-foreground;
+	}
+}
+/** end of shadcn */
+
+/* Increase the Quill Editor Size (Doubled) */
+.editor {
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+
+/* Target the actual Quill editor */
+.editor .ql-container {
+	min-height: 300px !important;
+	max-height: 800px !important;
+	overflow-y: auto;
+}
+
+.editor .ql-editor {
+	min-height: 300px !important;
+	max-height: 800px !important;
+	overflow-y: auto;
+}
+/* Increase Checkbox Size */
+.checkbox-custom {
+	width: 1.25rem; /* w-5 */
+	height: 1.25rem; /* h-5 */
+	cursor: pointer;
+	accent-color: #4f46e5; /* Adjust to match theme */
+}
