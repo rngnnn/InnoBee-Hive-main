@@ -11,7 +11,9 @@ const ManageChallengePressPage = lazy(() => import('../pages/ManageChallengePres
 const ManageChallengeUpdates = lazy(() => import('../pages/ManageChallengeUpdates/ManageChallengeUpdates'));
 const ManageChallengeLegalAgreement = lazy(() => import('../pages/ManageChallengeLegalAgreement/ManageChallengeLegalAgreement'));
 const ManageChallengeJudgesNDA = lazy(() => import('../pages/ManageChallengeNDA/ManageChallengeJudgesNDA'));
-const Performance = lazy(() => import('../pages/ManageChallengePerformance/Performance'));
+// const Performance = lazy(() => import('../pages/ManageChallengePerformance/Performance'));
+
+const Performance = lazy(() => import('../pages/ManageChallengePerformance/ManageChallengePerformance'));
 const ManageChallengeNotifications = lazy(() => import('../pages/ManageChallengeSendNotifications/ManageChallengeSendNotifications'));
 const ManageChallengePartners = lazy(() => import('../pages/ManageChallengePartners/ManageChallengePartners'));
 const ManageChallengeSettings = lazy(() => import('../pages/ManageChallengeSettings/ManageChallengeSettings'));
@@ -50,7 +52,7 @@ const manageChallengeRoutes = (
     <Route path="/manage-challenge/updates" element={<ManageChallengeUpdates />} />
     <Route path="/manage-challenge/legal-agreement" element={<ManageChallengeLegalAgreement />} />
     <Route path="/manage-challenge/NDA" element={<ManageChallengeJudgesNDA />} />
-    <Route path="/manage-challenge/Performance" element={<Performance />} />
+    {/* <Route path="/manage-challenge/Performance" element={<Performance />} /> */}
     <Route path="/manage-challenge/send-notification" element={<ManageChallengeNotifications />} />
     <Route path="/manage-challenge/partners" element={
       <PartnersProvider>
