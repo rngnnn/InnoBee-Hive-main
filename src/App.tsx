@@ -33,6 +33,8 @@ import NotificationsPage from './components/layouts/dashboard/NotificationsPage'
 import SearchResultsPage from './pages/SearchResultsPage/SearchResultsPage';
 import Messaging from './pages/Messaging/Messaging';
 import ManageChallengeSettings from './pages/ManageChallengeSettings/ManageChallengeSettings';
+import authRoutes from './routes/authRoutes';
+
 
 // Lazy load components
 const Press = lazy(
@@ -164,6 +166,8 @@ function App() {
 	return (
 		<>
 			<Routes>
+				  {authRoutes}
+
 				{/** No layout */}
 				<Route
 					path="/proof-of-concept"
@@ -174,12 +178,11 @@ function App() {
 					}
 				/>
 				{/** Auth layout */}
-				<Route element={<AuthLayout />}>
-					<Route path="/login" element={<Login />} />
-					<Route path="/register" element={<RegistrationPage />} />
-					<Route path="/forgot-password" element={<ForgotPasswordPage />} />
-				</Route>
+			
+
+
 				{/** Manage challenge layout */}
+
 				<Route
 					element={
 						<PrivateRoute>
