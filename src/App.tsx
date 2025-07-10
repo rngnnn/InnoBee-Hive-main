@@ -34,6 +34,8 @@ import SearchResultsPage from './pages/SearchResultsPage/SearchResultsPage';
 import Messaging from './pages/Messaging/Messaging';
 import ManageChallengeSettings from './pages/ManageChallengeSettings/ManageChallengeSettings';
 import authRoutes from './routes/authRoutes';
+import manageChallengeRoutes from './routes/manageChallengeRoutes';
+
 
 
 // Lazy load components
@@ -167,6 +169,7 @@ function App() {
 		<>
 			<Routes>
 				  {authRoutes}
+				{manageChallengeRoutes}
 
 				{/** No layout */}
 				<Route
@@ -183,113 +186,7 @@ function App() {
 
 				{/** Manage challenge layout */}
 
-				<Route
-					element={
-						<PrivateRoute>
-							<ManageChallengeLayout />
-						</PrivateRoute>
-					}
-				>
-					<Route
-						path="/manage-challenge/overview"
-						element={<ManageChallengeOverview />}
-					/>
-					<Route path="/manage-challenge/guidelines" element={<Guidelines />} />
-					<Route
-						path="/manage-challenge/faq"
-						element={
-							<FaqProvider>
-								<Faq />
-							</FaqProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/press"
-						element={<ManageChallengePressPage />}
-					/>
-
-					<Route path="/manage-challenge/press" element={<Press />} />
-					<Route
-						path="/manage-challenge/updates"
-						element={<ManageChallengeUpdates />}
-					/>
-					<Route
-						path="/manage-challenge/legal-agreement"
-						element={<ManageChallengeLegalAgreement />}
-					/>
-					<Route
-						path="/manage-challenge/NDA"
-						element={<ManageChallengeJudgesNDA />}
-					/>
-					<Route
-						path="/manage-challenge/Performance"
-						element={<Performance />}
-					/>
-					<Route
-						path="/manage-challenge/send-notification"
-						element={<ManageChallengeNotifications />}
-					/>
-					<Route
-						path="/manage-challenge/partners"
-						element={
-							<PartnersProvider>
-								<ManageChallengePartners />
-							</PartnersProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/settings"
-						element={<ManageChallengeSettings />}
-					/>
-					<Route
-						path="/manage-challenge/judging-activity"
-						element={<JudgingActivity />}
-					/>
-					<Route
-						path="/manage-challenge/judges"
-						element={
-							<JudgesProvider>
-								<ManageChallengeJudges />
-							</JudgesProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/moderators"
-						element={
-							<ModeratorsProvider>
-								<ManageChallengeModerators />
-							</ModeratorsProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/participants"
-						element={
-							<ParticipantsProvider>
-								<ManageChallengeParticipants />
-							</ParticipantsProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/timelines"
-						element={
-							<TimelineProvider>
-								<ManageChallengeTimelines />
-							</TimelineProvider>
-						}
-					/>
-					<Route
-						path="/manage-challenge/submission-form"
-						element={<ManageChallengeSubmissionForm />}
-					/>
-					<Route
-						path="/manage-challenge/judging-criteria"
-						element={
-							<JudgingCriteriaProvider>
-								<ManageChallengeJudgingCriteria />
-							</JudgingCriteriaProvider>
-						}
-					/>
-				</Route>
+				{manageChallengeRoutes}
 				{/** Corporate sidebar layouts */}
 				<Route element={<CorporateWhiteLayout />}>
 					<Route
