@@ -4,6 +4,14 @@ import { lazy } from 'react';
 import ManageChallengeLayout from '../components/layouts/manage-challenge/ManageChallengeLayout';
 import PrivateRoute from '../components/PrivateRoute';
 
+import { JudgesProvider } from '../pages/ManageChallengeJudges/JudgesContext';
+import { ParticipantsProvider } from '../pages/ManageChallengeParticipants/ParticipantsContext';
+import { FaqProvider } from '../pages/ManageChallengeFaq/FaqProvider';
+import { PartnersProvider } from '../pages/ManageChallengePartners/PartnersContext';
+import { ModeratorsProvider } from '../pages/ManageChallengeModerator/ModeratorsContext';
+import { TimelineProvider } from '../pages/ManageChallengeTimelines/TimelineContext';
+import { JudgingCriteriaProvider } from '../pages/ManageChallengeJudgingCriteria/JudgingCriteriaContext';
+
 const ManageChallengeOverview = lazy(() => import('../pages/ManageChallengeOverview/ManageChallengeOverview'));
 const Guidelines = lazy(() => import('../pages/ManageChallengeGuidelines/Guidelines'));
 const Faq = lazy(() => import('../pages/ManageChallengeFaq/Faq'));
@@ -11,9 +19,9 @@ const ManageChallengePressPage = lazy(() => import('../pages/ManageChallengePres
 const ManageChallengeUpdates = lazy(() => import('../pages/ManageChallengeUpdates/ManageChallengeUpdates'));
 const ManageChallengeLegalAgreement = lazy(() => import('../pages/ManageChallengeLegalAgreement/ManageChallengeLegalAgreement'));
 const ManageChallengeJudgesNDA = lazy(() => import('../pages/ManageChallengeNDA/ManageChallengeJudgesNDA'));
-// const Performance = lazy(() => import('../pages/ManageChallengePerformance/Performance'));
-
-const Performance = lazy(() => import('../pages/ManageChallengePerformance/ManageChallengePerformance'));
+const Performance = lazy(() =>
+  import('../pages/ManageChallengePerformance/ManageChallengePerformance')
+);
 const ManageChallengeNotifications = lazy(() => import('../pages/ManageChallengeSendNotifications/ManageChallengeSendNotifications'));
 const ManageChallengePartners = lazy(() => import('../pages/ManageChallengePartners/ManageChallengePartners'));
 const ManageChallengeSettings = lazy(() => import('../pages/ManageChallengeSettings/ManageChallengeSettings'));
@@ -24,14 +32,6 @@ const ManageChallengeParticipants = lazy(() => import('../pages/ManageChallengeP
 const ManageChallengeTimelines = lazy(() => import('../pages/ManageChallengeTimelines/ManageChallengeTimelines'));
 const ManageChallengeSubmissionForm = lazy(() => import('../pages/ManageChallengeSubmissionForm/ManageChallengeSubmissionForm'));
 const ManageChallengeJudgingCriteria = lazy(() => import('../pages/ManageChallengeJudgingCriteria/ManageChallengeJudgingCriteria'));
-
-import { JudgesProvider } from '../pages/ManageChallengeJudges/JudgesContext';
-import { ParticipantsProvider } from '../pages/ManageChallengeParticipants/ParticipantsContext';
-import { FaqProvider } from '../pages/ManageChallengeFaq/FaqProvider';
-import { PartnersProvider } from '../pages/ManageChallengePartners/PartnersContext';
-import { ModeratorsProvider } from '../pages/ManageChallengeModerator/ModeratorsContext';
-import { TimelineProvider } from '../pages/ManageChallengeTimelines/TimelineContext';
-import { JudgingCriteriaProvider } from '../pages/ManageChallengeJudgingCriteria/JudgingCriteriaContext';
 
 const manageChallengeRoutes = (
   <Route
